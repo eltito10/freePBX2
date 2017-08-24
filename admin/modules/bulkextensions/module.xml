@@ -1,0 +1,35 @@
+<module>
+	<rawname>bulkextensions</rawname>
+	<name>Bulk Extensions</name>
+	<description>Bulk Extensions uses CSV files to import and export extensions.</description>
+	<version>2.7.0.1</version>
+	<type>tool</type>
+	<category>Third Party Addon</category>
+	<menuitems>
+		<bulkextensions>Bulk Extensions</bulkextensions>
+	</menuitems>
+	<depends>
+		<version>ge2.7</version>
+	</depends>
+	<location>contributed_modules/release/bulkextensions-2.7.0.1.tgz</location>
+	<info></info>
+	<changelog>
+		*2.7.0.1* #5091 missing fields from template.csv
+		*2.7.0.0* #4567 Add fax setting
+		*2.6.0.7* #4495
+		*2.5.0.6* #4150
+		*2.5.0.5* Add permit/deny fields provided by 4Colo. Fixed a small bug in table.csv. Fixed spelling error in template.csv. Added localization for table.csv. See CHANGES for how-to.
+		*2.5.0.4* No changes, re-publishing to get md5sum and location info updated
+		*2.5.0.3* Fixed bug - every notification email after the first one had increasing amounts of unwanted white space at the beginning of the message
+		*2.5.0.2* New feature - Enforce extension range restrictions for admin users - thanks dinhtrung
+			  New feature - Email notification for new accounts
+		*2.5.0.1* changed includes to include_once
+		*2.5.0* Version for FreePBX 2.5
+		*0.2.1*	Beta support for FreePBX 2.5 (unreleased)
+		*0.2.0*	New feature - Export Extensions Documented all supported Extension fields Minor code clean ups
+		*0.1.1*	Fixed bad path and error in tar file
+		*0.1*	First release
+	</changelog>
+	<md5sum>74edb0c131fdbe2ec38201138e278df2</md5sum>
+</module>
+

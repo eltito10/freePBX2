@@ -1,0 +1,1000 @@
+    4  mar/15 - 17:04:37 mysql -h 192.168.1.6 -u asterisk 
+    5  mar/15 - 17:07:02 mysql -h 192.168.1.6 -u asterisk -p
+    6  mar/15 - 17:24:58 vim /etc/asterisk/autodial.conf
+    7  mar/15 - 17:33:17 cd /var/www/html/autodialer/
+    8  mar/15 - 17:33:17 ls
+    9  mar/15 - 17:33:47 vim enviar.php
+   10  mar/15 - 17:47:46 vim /etc/asterisk/autodial.conf
+   11  mar/15 - 17:49:06 cd /etc/asterisk/
+   12  mar/15 - 17:49:35 cp autodial.conf autodial.conf.15-03-2012
+   13  mar/15 - 17:49:36 date
+   14  mar/15 - 17:50:11 cd /var/www/html/autodialer/origen/
+   15  mar/15 - 17:50:11 ls
+   16  mar/15 - 17:50:15 cd ..
+   17  mar/15 - 17:50:27 cd /var/lib/asterisk/agi-bin/
+   18  mar/15 - 17:50:27 ls
+   19  mar/15 - 17:52:16 cp checknegoc.php saveivr.php
+   20  mar/15 - 17:52:18 vim saveivr.php 
+   21  mar/15 - 18:15:39 vim saveivr.php 
+   22  mar/15 - 18:17:54 vim /etc/asterisk/autodial.conf
+   23  mar/15 - 18:18:53 exit
+   24  mar/14 - 14:49:13 cd /media/
+   25  mar/14 - 14:49:14 ls
+   26  mar/14 - 14:49:23 rm -rf grabaciones*
+   27  mar/14 - 14:49:26 rm -rf grabaciones
+   28  mar/14 - 14:49:33 rm -r grabaciones
+   29  mar/14 - 14:49:38 rm -r grabaciones1
+   30  mar/14 - 14:49:41 ls
+   31  mar/14 - 14:49:48 cd grabaciones
+   32  mar/14 - 14:49:49 ls
+   33  mar/14 - 14:49:53 cd ..
+   34  mar/14 - 14:50:02 mkdir grabaciones2
+   35  mar/14 - 14:50:08 chmod 777 grabaciones2
+   36  mar/14 - 14:50:09 ls -la
+   37  mar/14 - 14:50:16 rm -rf grabaciones
+   38  mar/14 - 14:50:32 fdisk -l
+   39  mar/14 - 14:50:59 mount /dev/sdd1 /media/grabaciones2
+   40  mar/14 - 14:51:06 history
+   41  mar/14 - 14:51:20 fdisk -l
+   42  mar/14 - 14:51:43 mount /dev/sdd1 /media/grabaciones2
+   43  mar/14 - 14:52:07 vi /etc/modules
+   44  mar/14 - 14:52:15 mount
+   45  mar/14 - 14:52:47 umount /dev/sdc1
+   46  mar/14 - 14:52:54 umount /dev/sdb1
+   47  mar/14 - 14:53:01 umount /dev/sdd1
+   48  mar/14 - 14:53:04 mount
+   49  mar/14 - 14:53:10 ls
+   50  mar/14 - 14:53:17 rm -rf gra*
+   51  mar/14 - 14:53:18 ls
+   52  mar/14 - 14:53:28 mkdir grabaciones
+   53  mar/14 - 14:53:32 chmod 777 grabaciones/
+   54  mar/14 - 14:53:33 ls
+   55  mar/14 - 14:53:40 fdisk -l
+   56  mar/14 - 14:53:52 mount /dev/sdd1 /media/grabaciones/
+   57  mar/14 - 14:53:56 mc
+   58  mar/14 - 15:04:44 ls
+   59  mar/14 - 15:04:46 cd ..
+   60  mar/14 - 15:04:55 cd /var/spool/asterisk/
+   61  mar/14 - 15:04:56 ls
+   62  mar/14 - 15:04:58 ls -la
+   63  mar/14 - 15:05:32 mc
+   64  mar/14 - 16:10:57 cd /media/grabaciones/
+   65  mar/14 - 16:10:58 ls
+   66  mar/14 - 16:11:04 fdisk -l
+   67  mar/14 - 16:11:18 df -mh
+   68  mar/14 - 16:13:36 rsync -av /var/spool/asterisk/monitor /media/grabaciones/
+   69  mar/15 - 22:14:12 df -h
+   70  mar/15 - 22:14:40 cd /var/spool/asterisk/
+   71  mar/15 - 22:14:47 df -hm
+   72  mar/16 - 09:41:18 cd /var/www/html/
+   73  mar/16 - 09:41:27 cd panel/
+   74  mar/16 - 09:41:29 la
+   75  mar/16 - 09:41:32 ls
+   76  mar/16 - 09:41:39 vi op_buttons_custom.cfg
+   77  mar/16 - 09:42:11 amportal restart_fop
+   78  mar/16 - 09:50:54 amportal stop
+   79  mar/16 - 09:51:02 amportal start
+   80  mar/16 - 09:51:27 amportal stop_fop
+   81  mar/16 - 09:51:35 amportal restart_fop
+   82  mar/16 - 09:52:52 /etc/init.d/asterisk restart
+   83  mar/16 - 15:51:18 ls
+   84  mar/16 - 15:51:22 cat purgerecordings.sh 
+   85  mar/16 - 15:51:29 exit
+   86  mar/19 - 10:01:27 lshw | more
+   87  mar/20 - 15:49:51 fdidk -l
+   88  mar/20 - 15:49:56 fdisk -l
+   89  mar/20 - 16:45:53 cd /media/backup200312/
+   90  mar/20 - 16:45:54 ls
+   91  mar/20 - 16:45:56 ls -la
+   92  mar/20 - 16:48:25 ls
+   93  mar/20 - 16:48:37 cd ..
+   94  mar/20 - 16:48:38 ls
+   95  mar/20 - 16:48:50 mount /media/grabaciones/
+   96  mar/20 - 16:48:58 history
+   97  mar/20 - 16:25:04 fdisk -l
+   98  mar/20 - 16:25:16 history
+   99  mar/20 - 16:25:29 cd /media/
+  100  mar/20 - 16:25:30 lsd
+  101  mar/20 - 16:25:31 ls
+  102  mar/20 - 16:25:35 cd grabaciones/
+  103  mar/20 - 16:25:36 ls
+  104  mar/20 - 16:25:46 cd ..
+  105  mar/20 - 16:26:06 cd /home/admin/
+  106  mar/20 - 16:26:07 ls
+  107  mar/20 - 16:26:54 cd /media/
+  108  mar/20 - 16:26:55 ls
+  109  mar/20 - 16:27:00 rm -rf grabaciones/
+  110  mar/20 - 16:27:32 mkdir backup200312
+  111  mar/20 - 16:27:37 chmod 755 backup200312/
+  112  mar/20 - 16:27:39 ls -la
+  113  mar/20 - 16:27:47 chmod 777 backup200312/
+  114  mar/20 - 16:27:48 ls
+  115  mar/20 - 16:27:50 ls -la
+  116  mar/20 - 16:28:33 rsync -av /home/admin/grabaciones /media/backup200312
+  117  mar/20 - 16:49:36 fdisk -l
+  118  mar/20 - 16:50:12 umount /dev/sdb1 /media/grabaciones/
+  119  mar/20 - 16:50:16 ls
+  120  mar/20 - 16:50:22 rm -r grabaciones/
+  121  mar/20 - 16:50:24 ls
+  122  mar/20 - 16:50:47 mount /dev/sdb1 /media/backup200312/
+  123  mar/20 - 16:51:35 rsync -av /home/admin/grabaciones /media/backup200312/
+  124  mar/20 - 15:50:30 df -h
+  125  mar/20 - 15:50:40 cd /media/grabaciones/
+  126  mar/20 - 15:50:43 du -hs
+  127  mar/20 - 15:51:02 ls -l |more
+  128  mar/20 - 15:51:27 dmesg 
+  129  mar/20 - 15:51:34 cd ..
+  130  mar/20 - 15:51:38 df -h
+  131  mar/20 - 15:51:43 umount /dev/sdd1
+  132  mar/20 - 15:51:46 dmesg 
+  133  mar/20 - 15:51:53 df -h
+  134  mar/20 - 15:55:53 fisk -l
+  135  mar/20 - 15:55:56 fdisk -l
+  136  mar/20 - 15:56:09 ls
+  137  mar/20 - 15:56:11 cd grabaciones/
+  138  mar/20 - 15:56:11 ls
+  139  mar/20 - 15:56:13 cd ..
+  140  mar/20 - 15:56:26 mount /dev/sdb1 grabaciones/
+  141  mar/20 - 15:56:35 cd grabaciones/
+  142  mar/20 - 15:56:37 dmesg 
+  143  mar/20 - 15:56:45 dmesg  -c
+  144  mar/20 - 15:57:21 dmesg 
+  145  mar/20 - 15:57:24 df -h
+  146  mar/20 - 15:57:34 ls -l |more
+  147  mar/20 - 15:57:43 cd monitor
+  148  mar/20 - 15:57:45 du -hs
+  149  mar/20 - 16:07:24 pwd
+  150  mar/20 - 16:07:33 rm -f *
+  151  mar/20 - 16:08:32 cd ..
+  152  mar/20 - 16:08:38 rm -rf monitor/
+  153  mar/20 - 16:24:13 ls
+  154  mar/20 - 16:24:16 cd
+  155  mar/20 - 16:24:25 umount /media/grabaciones/
+  156  mar/20 - 16:24:59 fdisk -l
+  157  mar/20 - 16:25:16 mount /dev/sdb1 /media/grabaciones/
+  158  mar/20 - 16:25:27 dmesg 
+  159  mar/20 - 16:25:37 df -h
+  160  mar/20 - 16:32:28 mysql -h 192.168.1.6 -u asterisk -p
+  161  mar/20 - 17:12:01 mysql -h 192.168.1.6 -u asterisk -p
+  162  mar/20 - 17:17:30 vim /etc/asterisk/autodial.conf
+  163  mar/20 - 17:22:34 ps ax
+  164  mar/20 - 17:23:01 top
+  165  mar/20 - 17:27:50 df -h
+  166  mar/20 - 17:27:54 ps ax
+  167  mar/20 - 17:28:07 top
+  168  mar/20 - 17:49:06 exit
+  169  mar/20 - 16:01:52 ps ax
+  170  mar/20 - 16:01:59 top
+  171  mar/20 - 16:02:37 cd /home/
+  172  mar/20 - 16:02:37 ls
+  173  mar/20 - 16:02:38 cd admin/
+  174  mar/20 - 16:02:39 ls
+  175  mar/20 - 16:02:42 cd grabaciones/
+  176  mar/20 - 16:02:49 cd 
+  177  mar/20 - 16:02:50 ls
+  178  mar/20 - 16:02:54 crontab -l
+  179  mar/20 - 16:03:10 vim purgerecordings.sh 
+  180  mar/20 - 16:07:49 mysql -h 192.168.1.6 -u asterisk
+  181  mar/20 - 16:07:56 mysql -h 192.168.1.6 -u asterisk -p
+  182  mar/20 - 16:11:37 cd /var/lib/asterisk/agi-bin/
+  183  mar/20 - 16:11:38 ls
+  184  mar/20 - 16:11:45 ls -lt
+  185  mar/20 - 16:12:07 vim saveivr.php 
+  186  mar/20 - 16:19:10 vim saveivr.php 
+  187  mar/20 - 16:21:49 php saveivr.php "1111111" "2222222" "3333333" "1" "20202020202.2020"
+  188  mar/20 - 16:22:01 mysql -h 192.168.1.6 -u asterisk -p
+  189  mar/20 - 16:23:11 vim saveivr.php 
+  190  mar/20 - 16:23:55 tail -n 100 /var/log/httpd/access_log
+  191  mar/20 - 16:24:05 tail -n 100 /var/log/httpd/error_log
+  192  mar/20 - 16:26:03 vim saveivr.php 
+  193  mar/20 - 16:26:48 cd /var/log/
+  194  mar/20 - 16:26:48 ls
+  195  mar/20 - 16:26:59 tail -n 100 mysqld.log 
+  196  mar/20 - 16:27:57 ps ax
+  197  mar/20 - 16:29:45 cd /var/lib/asterisk/agi-bin/
+  198  mar/20 - 16:29:45 ls
+  199  mar/20 - 16:29:49 vim saveivr.php 
+  200  mar/20 - 16:32:01 php saveivr.php "1111111" "2222222" "3333333" "1" "20202020202.2020"
+  201  mar/20 - 16:35:04 vim saveivr.php 
+  202  mar/20 - 16:37:51 cd
+  203  mar/20 - 16:37:56 vim updatecdr
+  204  mar/20 - 16:37:59 vim updatecdr.php
+  205  mar/20 - 16:42:17 cd /var/www/html/
+  206  mar/20 - 16:42:18 ls
+  207  mar/20 - 16:42:21 cd autodialer/
+  208  mar/20 - 16:42:22 ls
+  209  mar/20 - 16:42:26 vim enviar.php
+  210  mar/20 - 16:54:19 cp enviar.php enviar.php.20-03-2012
+  211  mar/20 - 16:54:22 vim enviar.php
+  212  mar/20 - 16:55:03 vim /etc/asterisk/autodial.conf
+  213  mar/20 - 16:55:37 vim enviar.php
+  214  mar/20 - 16:57:06 vim /etc/asterisk/autodial.conf
+  215  mar/20 - 16:59:36 vim /etc/asterisk/autodial.conf
+  216  mar/20 - 17:11:25 cd /var/lib/asterisk/sounds/custom
+  217  mar/20 - 17:11:25 ls
+  218  mar/20 - 17:16:54 wget http://192.20.225.36/tts/speech/4c7113e85d56a0d8111eae7227ea9a39.wav
+  219  mar/20 - 17:17:06 file 4c7113e85d56a0d8111eae7227ea9a39.wav
+  220  mar/20 - 17:17:50 sox 4c7113e85d56a0d8111eae7227ea9a39.wav -r 8000 recibido.wav
+  221  mar/20 - 17:17:54 file recibido.wav 
+  222  mar/20 - 17:18:01 file thanksforaten.wav 
+  223  mar/20 - 17:18:47 vim /etc/asterisk/autodial.conf
+  224  mar/20 - 17:19:10 cd /var/lib/asterisk/agi-bin/
+  225  mar/20 - 17:19:11 ls
+  226  mar/20 - 17:19:20 vim saveivr.php 
+  227  mar/20 - 17:19:31 vim /etc/asterisk/autodial.conf
+  228  mar/20 - 17:19:38 vim saveivr.php 
+  229  mar/20 - 17:22:02 vim /etc/asterisk/autodial.conf
+  230  mar/20 - 17:24:56 cd /var/www/html/
+  231  mar/20 - 17:24:56 ls
+  232  mar/20 - 17:25:09 cd autodialer/
+  233  mar/20 - 17:25:14 vim index2.html 
+  234  mar/20 - 17:26:28 vim lista.php 
+  235  mar/20 - 17:26:42 cp lista.php lista.php.20-03-2012
+  236  mar/20 - 17:27:11 vim lista.php
+  237  mar/20 - 17:33:31 vim lista.php
+  238  mar/20 - 17:33:52 vim enviar.php
+  239  mar/20 - 17:40:29 vim /etc/amportal.conf 
+  240  mar/20 - 17:40:56 vim enviar.php
+  241  mar/20 - 17:42:05 vim index2.html 
+  242  mar/20 - 17:43:00 vim enviar.php
+  243  mar/20 - 17:43:32 ls
+  244  mar/20 - 17:43:33 cd
+  245  mar/20 - 17:43:34 ls
+  246  mar/20 - 17:43:40 vim cron_copiar.php 
+  247  mar/20 - 17:44:08 vim cron_copiar2.sh 
+  248  mar/20 - 17:45:19 cd /var/www/html/
+  249  mar/20 - 17:45:23 cd autodialer/
+  250  mar/20 - 17:45:31 vi index2.html 
+  251  mar/20 - 17:46:54 vim /etc/asterisk/autodial.conf
+  252  mar/20 - 17:48:10 vim enviar.php
+  253  mar/20 - 17:48:28 vim /root/cron_copiar.php 
+  254  mar/20 - 17:48:59 vim enviar.php
+  255  mar/20 - 17:51:01 vim index2.html 
+  256  mar/20 - 17:51:16 vim lista.php
+  257  mar/20 - 17:51:46 vim enviar.php
+  258  mar/20 - 17:53:25 exit
+  259  mar/20 - 17:08:16 iniy
+  260  mar/20 - 17:08:20 init
+  261  mar/20 - 17:08:29 top
+  262  mar/20 - 17:08:48 cd /media/backup200312/
+  263  mar/20 - 17:08:50 ls
+  264  mar/20 - 17:08:52 ls -la
+  265  mar/20 - 17:09:03 top
+  266  mar/20 - 17:09:29 cd ..
+  267  mar/20 - 17:09:48 history
+  268  mar/20 - 17:10:17 ls
+  269  mar/20 - 17:10:19 cd ..
+  270  mar/20 - 17:10:21 ls
+  271  mar/20 - 17:13:35 cd /home/
+  272  mar/20 - 17:13:36 ls
+  273  mar/20 - 17:13:44 mkdir prueba
+  274  mar/20 - 17:13:49 chmod 777 prueba/
+  275  mar/20 - 17:13:50 ls
+  276  mar/20 - 17:14:10 rsync -av /home/prueba/ /media/backup200312/
+  277  mar/20 - 17:14:16 cd /media/backup200312/
+  278  mar/20 - 17:14:17 ls
+  279  mar/20 - 17:14:19 ls -la
+  280  mar/20 - 17:14:32 cd /home/
+  281  mar/20 - 17:14:33 ls
+  282  mar/20 - 17:14:37 cd prueba/
+  283  mar/20 - 17:14:42 touch hola
+  284  mar/20 - 17:14:44 ls
+  285  mar/20 - 17:14:47 cd ..
+  286  mar/20 - 17:14:51 cd ..
+  287  mar/20 - 17:15:03 rsync -av /home/prueba /media/backup200312/
+  288  mar/20 - 17:15:11 cd /media/backup200312/
+  289  mar/20 - 17:15:12 ls
+  290  mar/20 - 17:15:20 rm -r prueba/
+  291  mar/20 - 17:15:33 cd /home/admin/
+  292  mar/20 - 17:15:34 ls
+  293  mar/20 - 17:15:53 rsync -av /home/admin/grabaciones /media/backup200312/
+  294  mar/20 - 16:04:29 history
+  295  mar/20 - 16:05:03 cd /home/admin/
+  296  mar/20 - 16:05:04 ls
+  297  mar/21 - 09:51:38 top
+  298  mar/21 - 09:51:49 fdisk -l
+  299  mar/21 - 09:52:04 cd /home/admin/
+  300  mar/21 - 09:52:05 ls
+  301  mar/21 - 09:52:08 cd grabaciones/
+  302  mar/21 - 09:52:14 df -h
+  303  mar/21 - 09:52:48 df -H
+  304  mar/21 - 09:53:02 cd /media/backup200312/
+  305  mar/21 - 09:53:08 df -H
+  306  mar/21 - 09:53:17 history
+  307  mar/21 - 09:53:39 top
+  308  mar/21 - 09:54:14 ls -l
+  309  mar/21 - 09:54:23 cd grabaciones/a
+  310  mar/21 - 09:54:31 cd grabaciones
+  311  mar/21 - 09:54:34 ls -l
+  312  mar/21 - 09:54:50 cd ..
+  313  mar/21 - 09:54:58 rm -rf grabaciones/
+  314  mar/21 - 09:55:00 ls
+  315  mar/21 - 09:55:02 ls -la
+  316  mar/21 - 12:31:05 cd /var/www/html/autodialer/origen/
+  317  mar/21 - 12:31:05 ls
+  318  mar/21 - 12:31:13 cd /var/spool/asterisk/outgoing
+  319  mar/21 - 12:31:14 ls
+  320  mar/21 - 12:31:16 cd ..
+  321  mar/21 - 12:31:20 cd outgoing_done/
+  322  mar/21 - 12:31:21 ls
+  323  mar/21 - 12:31:27 ls -lt |more
+  324  mar/21 - 12:31:36 vim arch2484.call
+  325  mar/21 - 12:31:56 cd /var/www/html/autodialer/
+  326  mar/21 - 12:31:56 ls
+  327  mar/21 - 12:32:04 vim index.html
+  328  mar/21 - 12:32:43 grep -rl DADHI *
+  329  mar/21 - 12:32:48 mysql -p
+  330  mar/21 - 12:33:01 vim lista.php
+  331  mar/21 - 12:33:16 grep -rl TRUNK *
+  332  mar/21 - 12:33:19 vim enviar.php
+  333  mar/21 - 12:33:37 vi index.html
+  334  mar/21 - 12:33:51 mysql -p
+  335  mar/21 - 12:36:52 vim index2.html 
+  336  mar/21 - 12:37:02 vim lista.php
+  337  mar/21 - 12:38:15 vim index.html
+  338  mar/21 - 12:38:21 vim lista.php
+  339  mar/21 - 12:38:54 vim enviar.php
+  340  mar/21 - 12:39:01 a
+  341  mar/21 - 12:39:15 a
+  342  mar/21 - 12:41:36 cd origen/
+  343  mar/21 - 12:41:36 ls
+  344  mar/21 - 13:05:53 ls
+  345  mar/21 - 13:05:55 exit
+  346  mar/21 - 17:07:56 vim /etc/asterisk/autodial.conf
+  347  mar/21 - 17:09:07 cd /var/spool/asterisk/outgoing_done/
+  348  mar/21 - 17:09:13 ls -lt |more
+  349  mar/21 - 17:09:22 cat arch1.call 
+  350  mar/21 - 17:09:40 vim /etc/asterisk/autodial.conf
+  351  mar/21 - 17:11:03 a
+  352  mar/21 - 17:11:19 vim /etc/asterisk/autodial.conf
+  353  mar/21 - 17:12:15 cd /var/lib/asterisk/sounds/custom
+  354  mar/21 - 17:12:17 ls
+  355  mar/21 - 17:12:26 vim /etc/asterisk/autodial.conf
+  356  mar/21 - 17:14:56 a
+  357  mar/21 - 17:20:15 mysql -h 192.168.1.6 -u asterisk -p
+  358  mar/21 - 17:25:12 vim /etc/asterisk/autodial.conf
+  359  mar/21 - 17:25:51 tma
+  360  mar/21 - 17:26:56 tail -n 300 /var/log/asterisk/messages
+  361  mar/21 - 17:27:57 crontab -l
+  362  mar/21 - 17:28:11 cd
+  363  mar/21 - 17:28:15 php autodialercdr.php 
+  364  mar/21 - 17:28:47 top
+  365  mar/21 - 17:29:38 ps ax
+  366  mar/21 - 17:38:38 vim /etc/asterisk/autodial.conf
+  367  mar/21 - 17:39:20 cd /var/log/asterisk/
+  368  mar/21 - 17:39:21 ls -l
+  369  mar/21 - 17:39:35 less messages
+  370  mar/21 - 17:41:18 vim /etc/asterisk/autodial.conf
+  371  mar/21 - 17:46:07 less messages
+  372  mar/21 - 17:49:06 vim /etc/asterisk/autodial.conf
+  373  mar/21 - 17:49:43 cd /var/www/html/
+  374  mar/21 - 17:49:46 cd autodialer/
+  375  mar/21 - 17:49:52 vim enviar.php
+  376  mar/21 - 17:51:35 vim /etc/asterisk/autodial.conf
+  377  mar/21 - 17:51:47 a
+  378  mar/21 - 17:55:22 mysql -h 192.168.1.6 -u asterisk -p
+  379  mar/21 - 17:58:18 cd /var/lib/asterisk/agi-bin/
+  380  mar/21 - 17:58:22 vim saveivr.php 
+  381  mar/21 - 17:59:06 vim saveivr.php 
+  382  mar/21 - 18:00:22 vim saveivr.php 
+  383  mar/21 - 18:01:02 mysql -h 192.168.1.6 -u asterisk -p
+  384  mar/21 - 18:17:44 exit
+  385  mar/21 - 16:24:34 ps ax
+  386  mar/21 - 16:24:43 top
+  387  mar/21 - 16:25:14 cd /var/www/html/
+  388  mar/21 - 16:25:14 ls
+  389  mar/21 - 16:25:20 cd autodialer/
+  390  mar/21 - 16:25:30 vim /etc/asterisk/autodial.conf
+  391  mar/21 - 16:27:21 cd /var/lib/asterisk/agi-bin/
+  392  mar/21 - 16:27:25 vim searchagent.php 
+  393  mar/21 - 16:28:16 vim /etc/asterisk/autodial.conf
+  394  mar/21 - 16:29:04 php searchagent.php Interbank
+  395  mar/21 - 16:29:17 vim searchagent.php 
+  396  mar/21 - 16:29:36 php searchagent.php Interbank
+  397  mar/21 - 16:29:58 vim /etc/asterisk/autodial.conf
+  398  mar/21 - 16:35:41 a
+  399  mar/21 - 16:37:22 a
+  400  mar/21 - 09:58:19 top
+  401  mar/21 - 09:59:25 history
+  402  mar/21 - 09:59:53 clear
+  403  mar/21 - 10:00:30 rsync -av /home/admin/grabaciones /media/backup200312/
+  404  mar/22 - 10:16:41 dh -H /home/admin/grabaciones/
+  405  mar/22 - 10:16:58 df -H /home/admin/grabaciones/
+  406  mar/22 - 10:17:24 df -H /media/backup200312/
+  407  mar/22 - 10:17:48 dh -H
+  408  mar/22 - 10:17:54 df -h
+  409  mar/22 - 10:18:20 cd /media/backup200312/
+  410  mar/22 - 10:18:29 ls -la
+  411  mar/22 - 10:18:49 ls -l
+  412  mar/22 - 10:19:17 cd /home/admin/
+  413  mar/22 - 10:19:22 ls -la
+  414  mar/22 - 10:19:37 cd /media/backup200312/
+  415  mar/22 - 10:19:41 ls -la
+  416  mar/22 - 10:19:52 cd grabaciones/
+  417  mar/22 - 10:19:57 ls -la
+  418  mar/22 - 10:45:54 fdisk -l
+  419  mar/22 - 10:46:13 df -H
+  420  mar/22 - 10:46:59 cd /home/admin/
+  421  mar/22 - 10:47:00 ls
+  422  mar/22 - 10:47:05 ls -la
+  423  mar/22 - 10:47:42 df -h
+  424  mar/23 - 15:50:13 cd /var/lib/asterisk/sounds/custom
+  425  mar/23 - 15:50:14 ls
+  426  mar/23 - 15:50:26 file prueba-tts1.wav 
+  427  mar/23 - 15:51:58 file interbank.wav 
+  428  mar/23 - 15:59:41 cd /var/www/html/autodialer/
+  429  mar/23 - 15:59:41 ls
+  430  mar/23 - 15:59:45 vim index2.html 
+  431  mar/23 - 16:00:02 vim index2.html 
+  432  mar/23 - 16:07:23 vim index2.html 
+  433  mar/23 - 16:33:26 vim lista.php
+  434  mar/23 - 16:38:25 vim index2.html 
+  435  mar/23 - 16:38:42 vim lista.php
+  436  mar/23 - 16:43:24 ls
+  437  mar/23 - 16:43:27 ls -la
+  438  mar/23 - 16:43:41 cd /tmp/
+  439  mar/23 - 16:43:41 ls
+  440  mar/23 - 16:44:56 ls
+  441  mar/23 - 16:45:00 ls -lt
+  442  mar/23 - 16:45:08 cd /var/www/html/autodialer/
+  443  mar/23 - 16:45:08 ls
+  444  mar/23 - 16:45:23 cat temporal.csv 
+  445  mar/23 - 16:45:54 cd /var/lib/php/
+  446  mar/23 - 16:45:55 ls
+  447  mar/23 - 16:45:56 cd session/
+  448  mar/23 - 16:45:57 ls
+  449  mar/23 - 16:48:38 cd /var/www/html/autodialer/
+  450  mar/23 - 16:48:38 ls
+  451  mar/23 - 16:48:42 vim lista.php
+  452  mar/23 - 16:56:12 cd /opt
+  453  mar/23 - 16:56:12 ls
+  454  mar/23 - 16:56:15 ls *.proc
+  455  mar/23 - 16:56:30 vm a2billing_proc3.sql 
+  456  mar/23 - 16:56:35 vim a2billing_proc3.sql 
+  457  mar/23 - 17:00:07 a
+  458  mar/23 - 17:00:59 a
+  459  mar/23 - 17:02:19 a
+  460  mar/23 - 17:02:57 a
+  461  mar/23 - 17:05:32 a
+  462  mar/23 - 17:06:08 a
+  463  mar/23 - 17:06:40 a
+  464  mar/23 - 17:07:00 a
+  465  mar/23 - 17:07:23 a
+  466  mar/23 - 17:08:16 a
+  467  mar/23 - 17:08:43 a
+  468  mar/23 - 17:09:02 a
+  469  mar/23 - 17:09:22 a
+  470  mar/23 - 17:09:46 a
+  471  mar/23 - 17:10:03 a
+  472  mar/23 - 17:10:36 vim /etc/asterisk/extensions_additional.conf
+  473  mar/23 - 17:10:41 vim /etc/asterisk/extensions_custom.conf
+  474  mar/23 - 17:11:34 a
+  475  mar/23 - 17:11:49 a
+  476  mar/23 - 17:12:10 a
+  477  mar/23 - 17:12:38 a
+  478  mar/23 - 17:12:51 a
+  479  mar/23 - 17:13:04 a
+  480  mar/23 - 17:13:41 vim /etc/asterisk/extensions_custom.conf
+  481  mar/23 - 17:14:28 vim /etc/asterisk/extensions_custom.conf
+  482  mar/23 - 17:15:04 a
+  483  mar/23 - 17:16:11 a
+  484  mar/23 - 17:22:17 a
+  485  mar/23 - 17:22:57 a
+  486  mar/23 - 17:23:54 a
+  487  mar/23 - 17:25:24 a
+  488  mar/23 - 17:25:57 a
+  489  mar/23 - 17:26:23 a
+  490  mar/23 - 17:27:18 a
+  491  mar/23 - 17:27:42 a
+  492  mar/23 - 17:28:01 a
+  493  mar/23 - 17:32:21 vim /etc/asterisk/extensions_custom.conf
+  494  mar/23 - 17:33:08 vim /etc/asterisk/extensions_custom.conf
+  495  mar/23 - 17:38:23 cd /var/lib/asterisk/agi-bin/
+  496  mar/23 - 17:38:23 ls
+  497  mar/23 - 17:38:26 vi checkquota.php
+  498  mar/23 - 17:38:50 cd /opt/
+  499  mar/23 - 17:38:51 ls
+  500  mar/23 - 17:38:57 vim a2billing_proc2.sql 
+  501  mar/23 - 17:40:26 vim /etc/asterisk/extensions_custom.conf
+  502  mar/23 - 17:41:05 cd /var/lib/asterisk/agi-bin/
+  503  mar/23 - 17:41:09 vim updatequota.php
+  504  mar/23 - 17:44:26 exit
+  505  mar/23 - 15:47:16 ps ax
+  506  mar/23 - 15:47:18 top
+  507  mar/23 - 15:47:48 cd /home/admin/grabaciones/
+  508  mar/23 - 15:47:51 du -hs
+  509  mar/23 - 16:40:35 df -h
+  510  mar/23 - 18:02:08 exit
+  511  abr/02 - 09:16:36 history
+  512  abr/02 - 09:16:54 mount -t /home/admin/grabaciones/
+  513  abr/02 - 09:17:01 fdisk -l
+  514  abr/02 - 09:17:23 cd /media/backup200312/
+  515  abr/02 - 09:17:25 ls
+  516  abr/02 - 09:17:58 umount /media/backup200312/
+  517  abr/02 - 09:18:03 mount
+  518  abr/02 - 09:18:24 umount /dev/sdb1
+  519  abr/02 - 10:42:40 ls
+  520  abr/02 - 10:42:46 fdisk -l
+  521  abr/02 - 10:43:01 mount /dev/sdc1
+  522  abr/02 - 10:43:13 mount /dev/sdc1 /media/backup200312/
+  523  abr/02 - 10:43:21 ls
+  524  abr/02 - 10:43:25 mount
+  525  abr/02 - 10:43:36 history
+  526  abr/02 - 10:44:19 clear
+  527  abr/02 - 10:44:25 fdisk -l
+  528  abr/02 - 10:44:41 umount /dev/sdc1
+  529  abr/02 - 10:44:44 fdisk -l
+  530  abr/02 - 10:44:55 exit
+  531  abr/02 - 10:45:14 fdisk -l
+  532  abr/02 - 10:45:19 mount
+  533  abr/02 - 10:45:33 umount /dev/sdb1
+  534  abr/02 - 10:45:36 mount
+  535  abr/02 - 10:45:45 fdisk -l
+  536  abr/02 - 10:45:59 mount /dev/sdc1 /media/backup200312/
+  537  abr/02 - 10:46:03 mount
+  538  abr/02 - 10:46:09 cd /media/backup200312/
+  539  abr/02 - 10:46:10 ls
+  540  abr/02 - 10:46:27 umount /dev/sdc1 
+  541  abr/02 - 10:46:33 cd ..
+  542  abr/02 - 10:46:34 cd ..
+  543  abr/02 - 10:46:48 umount /dev/sdc1
+  544  abr/02 - 10:47:02 fdisk -l
+  545  abr/02 - 10:47:04 mount
+  546  abr/03 - 17:55:46 history
+  547  abr/03 - 17:56:09 top
+  548  abr/03 - 17:56:22 crontab -l
+  549  abr/03 - 17:57:13 services colgado.php
+  550  abr/03 - 17:57:19 services colgado_php
+  551  abr/03 - 17:57:30 services php_colgados
+  552  abr/03 - 17:57:55 servicio_colgadas.php
+  553  abr/03 - 17:58:10 sh servicio_colgadas.php
+  554  abr/03 - 17:58:46 top
+  555  abr/03 - 18:04:59 top
+  556  abr/03 - 18:06:13 pf -aux | grep php
+  557  abr/03 - 18:06:34 pf -aux | grep php
+  558  abr/03 - 18:06:51 ps -aux | grep php
+  559  abr/03 - 18:06:58 ps -aux | grep php
+  560  abr/03 - 18:07:07 ps -aux | grep php
+  561  abr/03 - 18:07:24 cront -l
+  562  abr/03 - 18:07:29 crontab -L
+  563  abr/03 - 18:07:32 crontab -l
+  564  abr/03 - 18:08:00 crontab -l
+  565  abr/04 - 10:59:37 cd /var/lib/asterisk/agi-bin/
+  566  abr/04 - 10:59:39 ls
+  567  abr/04 - 11:00:10 vim checkquota.php
+  568  abr/04 - 11:00:57 vim updatequota.php
+  569  abr/04 - 11:50:15 vim updatequota.php
+  570  abr/04 - 12:07:36 vim updatequota.php
+  571  abr/04 - 12:15:52 vim updatequota.php
+  572  abr/04 - 12:16:10 vim checkquota.php
+  573  abr/04 - 12:18:34 cd /var/lib/asterisk/agi-bin/
+  574  abr/04 - 12:18:35 ls
+  575  abr/04 - 12:19:07 ftp 174.133.99.2
+  576  abr/04 - 12:20:32 ls
+  577  abr/04 - 12:20:35 vim checkquota.php
+  578  abr/04 - 12:24:37 vim checkquota.php
+  579  abr/04 - 12:26:23 ftp 174.133.99.2
+  580  abr/04 - 13:03:08 exit
+  581  abr/09 - 15:21:29 history
+  582  abr/09 - 14:46:00 vim /etc/asterisk/extensions_custom.conf
+  583  abr/09 - 14:46:40 a
+  584  abr/09 - 14:47:33 top
+  585  abr/09 - 14:48:19 ps ax
+  586  abr/09 - 14:48:27 mysql -p
+  587  abr/09 - 14:48:35 mysql -p
+  588  abr/09 - 14:50:08 vim updatecdr.php
+  589  abr/09 - 14:50:56 vim updatecdr2.php 
+  590  abr/09 - 14:51:31 ps ax
+  591  abr/09 - 14:51:38 top
+  592  abr/09 - 16:04:55 exit
+  593  abr/09 - 16:05:04 top
+  594  abr/09 - 16:05:10 ps ax
+  595  abr/09 - 16:05:15 exit
+  596  abr/10 - 12:05:33 cd /var/www/html/
+  597  abr/10 - 12:05:34 ls
+  598  abr/10 - 12:05:38 cd panel/
+  599  abr/10 - 12:05:39 ls
+  600  abr/10 - 12:05:46 vi op_buttons_custom.cfg
+  601  abr/10 - 12:14:38 amportal restart_fop
+  602  abr/10 - 12:16:35 cd /var/www/html/panel/
+  603  abr/10 - 12:16:44 vi op_buttons_custom.cfg
+  604  abr/10 - 12:17:52 vi op_buttons_custom.cfg
+  605  abr/10 - 12:18:23 vi op_buttons_custom.cfg
+  606  abr/10 - 12:18:58 vi op_buttons_custom.cfg
+  607  abr/10 - 12:19:09 vi op_buttons_custom.cfg
+  608  abr/10 - 12:19:31 vi op_buttons_custom.cfg
+  609  abr/10 - 12:20:05 amportal restart_fop
+  610  abr/11 - 09:16:00 cd /var/www/html/panel/
+  611  abr/11 - 09:16:10 vi op_buttons_custom.cfg
+  612  abr/11 - 09:21:29 amportal restart_fop
+  613  abr/11 - 14:02:41 top
+  614  abr/11 - 15:11:34 exit
+  615  abr/11 - 15:13:17 cd /var/www/html/sgc
+  616  abr/11 - 19:17:22 top
+  617  abr/11 - 19:19:59 cd /etc/asterisk/
+  618  abr/11 - 19:20:19 vim extensions_custom.conf
+  619  abr/11 - 19:28:52 vim extensions_additional.conf
+  620  abr/11 - 19:30:05 vim extensions_custom.conf
+  621  abr/11 - 19:35:54 a
+  622  abr/11 - 20:06:38 exit
+  623  abr/12 - 14:56:35 a
+  624  abr/12 - 15:07:36 vim /etc/asterisk/extensions_custom.conf
+  625  abr/12 - 15:09:34 a
+  626  abr/12 - 15:12:26 vim /etc/asterisk/extensions_custom.conf
+  627  abr/12 - 15:13:27 a
+  628  abr/12 - 15:15:44 a
+  629  abr/12 - 15:15:59 exit
+  630  abr/12 - 15:16:16 a
+  631  abr/12 - 15:17:41 cd /var/spool/asterisk/monitor/
+  632  abr/12 - 15:18:29 ls -l *1334261625.182303*
+  633  abr/12 - 15:20:57 vim /etc/asterisk/extensions_custom.conf
+  634  abr/12 - 15:21:34 a
+  635  abr/12 - 15:22:37 date
+  636  abr/12 - 15:23:07 a
+  637  abr/12 - 15:23:38 a
+  638  abr/12 - 15:24:28 a
+  639  abr/12 - 15:25:54 a
+  640  abr/12 - 15:29:09 vim /etc/asterisk/extensions_custom.conf
+  641  abr/12 - 15:33:14 a
+  642  abr/12 - 15:33:28 exit
+  643  abr/13 - 09:30:31 amportal stop
+  644  abr/13 - 09:30:45 /etc/init.d/asterisk restart
+  645  abr/13 - 09:30:57 amportal restart_fop
+  646  abr/13 - 09:31:03 amportal start
+  647  abr/13 - 09:31:33 amportal restart_fop
+  648  abr/13 - 09:31:56 /etc/init.d/asterisk restart
+  649  abr/13 - 09:32:08 amportal stop
+  650  abr/13 - 09:32:14 amportal start
+  651  abr/13 - 09:33:19 /etc/init.d/asterisk stop
+  652  abr/13 - 09:33:29 /etc/init.d/asterisk start
+  653  abr/13 - 16:01:49 vim /etc/asterisk/extensions_custom.conf
+  654  abr/13 - 16:03:01 exit
+  655  abr/13 - 16:26:07 date
+  656  abr/13 - 16:28:51  ntpdate -u 0.pool.ntp.org
+  657  abr/13 - 16:35:33 vi /etc/ntp.conf
+  658  abr/13 - 16:38:09 date
+  659  abr/13 - 16:46:35 crontab -e
+  660  abr/13 - 16:46:54 crontab -l
+  661  abr/13 - 16:49:32 date
+  662  abr/16 - 12:29:03 top
+  663  abr/16 - 12:29:05 a
+  664  abr/16 - 12:30:59 exit
+  665  abr/16 - 17:25:17 vim /etc/asterisk/sip_general_custom.conf 
+  666  abr/16 - 17:25:27 exit
+  667  abr/17 - 10:02:58 cd /var/www/html/panel/
+  668  abr/17 - 10:03:03 vi op_buttons_custom.cfg
+  669  abr/17 - 10:04:25 amportal restart_fop
+  670  abr/17 - 10:30:22 cd /var/www/html/panel/
+  671  abr/17 - 10:30:28 vi op_buttons_custom.cfg
+  672  abr/17 - 10:46:55 amportal restart_fop
+  673  abr/17 - 16:08:48 ls
+  674  abr/17 - 16:08:59 vim updatecdr.php
+  675  abr/17 - 16:10:50 vim updatecdr.php
+  676  abr/17 - 16:12:56 vim updatecdr.php
+  677  abr/17 - 16:15:38 exit
+  678  abr/22 - 10:27:53 w
+  679  abr/22 - 10:27:58 uname -a
+  680  abr/22 - 10:28:04 cat .ssh/known_hosts 
+  681  abr/22 - 10:29:39 ssh 64.76.71.252
+  682  abr/22 - 10:29:54 ssh 64.76.71.253
+  683  abr/22 - 10:29:59 nano .ssh/known_hosts 
+  684  abr/22 - 10:30:10 ssh 64.76.71.253
+  685  abr/22 - 10:31:45 ssh 64.76.71.253
+  686  abr/22 - 10:31:55 ls -all
+  687  abr/22 - 10:31:56 cat .bash_history 
+  688  abr/22 - 10:32:04 cat .bash_history | grep ssh
+  689  abr/22 - 10:32:07 ls /home/
+  690  abr/22 - 10:32:12 ls /home/admin/
+  691  abr/22 - 10:32:17 ls /home/prueba/
+  692  abr/22 - 10:32:22 cd /home/prueba/
+  693  abr/22 - 10:32:23 ls -all
+  694  abr/22 - 10:32:25 cat hola 
+  695  abr/22 - 10:32:27 cd ..
+  696  abr/22 - 10:32:29 cd admin/
+  697  abr/22 - 10:32:29 ls -all
+  698  abr/22 - 10:32:32 cat .bash_history 
+  699  abr/22 - 10:32:34 cd
+  700  abr/22 - 10:32:35 ls -all
+  701  abr/22 - 10:32:41 gcc;cc;g++;make
+  702  abr/22 - 10:32:43 cat .m
+  703  abr/22 - 10:32:45 cat .mysql_history 
+  704  abr/22 - 10:32:51 cat .mysql_history  | grep root
+  705  abr/22 - 10:32:55 cat .mysql_history  | grep pass
+  706  abr/25 - 17:52:14 a
+  707  abr/25 - 17:47:47 a
+  708  abr/25 - 17:48:10 vim /etc/asterisk/extensions_custom.conf
+  709  abr/25 - 17:48:51 a
+  710  may/03 - 15:21:00 top
+  711  may/03 - 15:21:05 ps ax
+  712  may/03 - 15:21:31 ls
+  713  may/03 - 15:21:36 vim updatecdr.php
+  714  may/03 - 15:22:29 vim updatecdr2.php
+  715  may/03 - 15:23:26 vim updatecdrdia.php
+  716  may/03 - 15:24:09 a
+  717  may/03 - 15:24:14 top
+  718  may/03 - 15:24:17 a
+  719  may/03 - 15:35:33 cd /var/log/asterisk/
+  720  may/03 - 15:35:34 ls
+  721  may/03 - 15:35:36 ls -l
+  722  may/03 - 15:35:44 vim /etc/asterisk/logger.conf 
+  723  may/03 - 15:35:53 a
+  724  may/03 - 15:36:11 ls -l
+  725  may/03 - 15:36:16 a
+  726  may/03 - 15:43:00 top
+  727  may/03 - 15:43:07 a
+  728  may/03 - 15:43:12 free -m
+  729  may/03 - 15:43:17 a
+  730  may/03 - 16:34:07 date
+  731  may/03 - 16:34:09 exit
+  732  may/03 - 16:34:15 a
+  733  may/03 - 16:35:48 a
+  734  may/03 - 16:37:54 cd /var/log/asterisk/
+  735  may/03 - 16:37:55 less full 
+  736  may/03 - 16:45:43 cd /var/spool/asterisk/
+  737  may/03 - 16:45:50 ls
+  738  may/03 - 16:45:53 cd monitor/
+  739  may/03 - 16:46:05 ls -l g158-20120503-161318-1336079580.583658.gsm
+  740  may/03 - 16:49:07 mysql -p
+  741  may/03 - 16:54:23 vim /etc/asterisk/logger.conf 
+  742  may/03 - 16:54:27 a
+  743  may/03 - 16:54:38 cd /var/log/asterisk/
+  744  may/03 - 16:55:05 less full
+  745  may/03 - 17:04:42 mysql -p
+  746  may/03 - 17:06:16 vim /etc/asterisk/extensions_additional.conf
+  747  may/03 - 17:07:00 less /var/log/asterisk/full 
+  748  may/03 - 17:12:57 vim /etc/asterisk/logger.conf 
+  749  may/03 - 17:13:01 a
+  750  may/03 - 17:18:21 cd /var/www/html/
+  751  may/03 - 17:18:21 ls
+  752  may/03 - 17:20:24 top
+  753  may/03 - 17:21:54 ps ax
+  754  may/03 - 17:22:08 tail -f /var/log/httpd/access_log
+  755  may/03 - 17:22:18 tail -f /var/log/httpd/error_log
+  756  may/03 - 17:22:22 a
+  757  may/03 - 17:22:32 mysql -p
+  758  may/03 - 17:23:14 a
+  759  may/03 - 17:27:26 exit
+  760  may/04 - 10:08:39 amportal restart_fop
+  761  may/04 - 10:25:31 cd /var/log/asterisk/
+  762  may/04 - 10:25:33 top
+  763  may/04 - 10:25:36 ls -l
+  764  may/04 - 10:25:45 less full
+  765  may/04 - 11:08:09 less full
+  766  may/04 - 11:11:10 less full
+  767  may/04 - 11:26:50 less full
+  768  may/04 - 11:29:16 top
+  769  may/04 - 11:29:39 top
+  770  may/04 - 11:29:46 ps ax
+  771  may/04 - 11:29:50 killall find
+  772  may/04 - 11:29:52 killall find
+  773  may/04 - 11:29:54 top
+  774  may/04 - 11:30:19 top
+  775  may/04 - 11:32:55 cd
+  776  may/04 - 11:32:58 vi updatecdr.php
+  777  may/04 - 11:33:56 cd /var/log/asterisk/
+  778  may/04 - 11:33:58 vim full 
+  779  may/04 - 11:36:25 cp /dev/null full 
+  780  may/04 - 11:36:28 ls -l
+  781  may/04 - 11:37:26 ls -l
+  782  may/04 - 11:38:09 vim /etc/asterisk/extensions_custom.conf
+  783  may/04 - 11:38:38 vim /etc/asterisk/extensions.conf
+  784  may/04 - 11:39:28 a
+  785  may/04 - 11:39:42 vim /etc/asterisk/extensions_custom.conf
+  786  may/04 - 11:40:02 a
+  787  may/04 - 11:49:39 top
+  788  may/04 - 11:49:49 a
+  789  may/04 - 13:05:52 less full 
+  790  may/04 - 13:11:38 cd /var/spool/asterisk/monitor/
+  791  may/04 - 13:11:45 ls *1336154067.608262*
+  792  may/04 - 13:12:05 ls -l *1336154069.608263*
+  793  may/04 - 13:12:22 ls -l *1336154135.608273*
+  794  may/04 - 13:12:39 ls -l *1336154137.608274*
+  795  may/04 - 13:12:55 ls -l *1336154222.608286*
+  796  may/04 - 13:14:00 ls -l *20120504-125*
+  797  may/04 - 13:15:05 less /var/log/asterisk/full 
+  798  may/04 - 13:25:21 less /var/log/asterisk/full 
+  799  may/04 - 13:28:20 exit
+  800  may/04 - 10:28:17 vim /etc/asterisk/extensions_additional.conf
+  801  may/04 - 10:34:38 vim /etc/asterisk/extensions_additional.conf
+  802  may/04 - 10:39:14 vim /etc/asterisk/extensions_custom.conf
+  803  may/04 - 10:53:53 a
+  804  may/04 - 11:03:20 vim /etc/asterisk/extensions_custom.conf
+  805  may/04 - 11:04:36 a
+  806  may/04 - 11:04:43 top
+  807  may/04 - 11:04:45 a
+  808  may/04 - 11:05:05 vim /etc/asterisk/extensions_custom.conf
+  809  may/04 - 11:20:31 vim /etc/asterisk/extensions.conf
+  810  may/04 - 11:21:13 vim /etc/asterisk/extensions_additional.conf
+  811  may/04 - 11:27:48 top
+  812  may/04 - 11:28:17 mysql -p
+  813  may/04 - 13:28:40 vim /etc/asterisk/extensions.conf
+  814  may/04 - 13:29:04 a
+  815  may/04 - 13:31:51 exit
+  816  may/07 - 13:36:26 mysql -p
+  817  may/07 - 13:36:32 mysql -p
+  818  may/07 - 13:37:24 cd /var/lib/asterisk/agi-bin/
+  819  may/07 - 13:37:26 ls
+  820  may/07 - 13:38:20 ./cdrpredict.php "989169422" "159" "1336415328.636215" "2012-05-07 13:29:11" "32" "3" "ANSWERED"
+  821  may/07 - 13:38:29 mysql -
+  822  may/07 - 13:38:32 mysql -p
+  823  may/07 - 13:46:13 vim cdrpredict.php 
+  824  may/07 - 13:46:34 grep -rl INSERT *
+  825  may/07 - 13:46:52 vim a2billing.php 
+  826  may/07 - 13:47:18 vim cdrpredict.php 
+  827  may/07 - 13:51:14 mysql -p
+  828  may/07 - 13:53:29 vim cdrpredict.php 
+  829  may/07 - 13:54:52 cat cdrpredict.php 
+  830  may/07 - 13:56:21 ./cdrpredict.php "159" "989169422" "1336416521.637008" "2012-05-07 13:49:05" "7" "3" "ANSWERED"
+  831  may/07 - 13:57:03 ./cdrpredict.php "159" "989169422" "1336416521.637008" "2012-05-07" "7" "3" "ANSWERED"
+  832  may/07 - 13:58:08 vim cdrpredict.php 
+  833  may/07 - 13:58:45 ./cdrpredict.php "159" "989169422" "1336416521.637008" "2012-05-07 13:49:05" "7" "3" "ANSWERED"
+  834  may/07 - 13:59:26 vim cdrpredict.php 
+  835  may/07 - 14:00:13 ./cdrpredict.php "159" "989169422" "1336416521.637008" "2012-05-07 13:49:05" "7" "3" "ANSWERED"
+  836  may/07 - 14:00:29 vim cdrpredict.php 
+  837  may/07 - 14:01:01 gerp -rl inset *
+  838  may/07 - 14:01:03 gerp -rl insert *
+  839  may/07 - 14:01:08 grep -rl insert *
+  840  may/07 - 14:01:14 vim saveivr.php 
+  841  may/07 - 14:02:00 vim cdrpredict.php 
+  842  may/07 - 14:02:54 vim saveivr.php 
+  843  may/07 - 14:03:07 vim cdrpredict.php 
+  844  may/07 - 14:03:23 ./cdrpredict.php "159" "989169422" "1336416521.637008" "2012-05-07 13:49:05" "7" "3" "ANSWERED"
+  845  may/07 - 14:08:21 mysql -p
+  846  may/07 - 14:34:34 exit
+  847  may/07 - 10:54:32 top
+  848  may/07 - 10:55:03 cd /var/log/asterisk/
+  849  may/07 - 10:55:04 ls -l
+  850  may/07 - 10:55:11 cp /dev/null full 
+  851  may/07 - 11:04:05 vim /etc/asterisk/extensions_custom.conf
+  852  may/07 - 11:04:36 vim /etc/asterisk/predictivo.conf
+  853  may/07 - 11:08:24 vim /etc/asterisk/extensions_custom.conf
+  854  may/07 - 11:08:55 vim /etc/asterisk/extensions_additional.conf
+  855  may/07 - 11:09:32 vim /etc/asterisk/extensions.conf
+  856  may/07 - 11:10:19 vim /etc/asterisk/extensions_additional.conf
+  857  may/07 - 11:31:34 vim /etc/asterisk/predictivo.conf
+  858  may/07 - 11:34:05 a
+  859  may/07 - 11:58:15 less full 
+  860  may/07 - 12:22:05 vim /etc/asterisk/predictivo.conf
+  861  may/07 - 12:23:51 a
+  862  may/07 - 12:35:28 date
+  863  may/07 - 12:36:17 less full 
+  864  may/07 - 12:38:21 vim /etc/asterisk/extensions_additional.conf
+  865  may/07 - 12:38:39 vim /etc/asterisk/extensions.conf
+  866  may/07 - 12:38:59 vim /etc/asterisk/extensions_additional.conf
+  867  may/07 - 12:41:08 vim /etc/asterisk/predictivo.conf
+  868  may/07 - 12:41:32 less full 
+  869  may/07 - 12:44:06 vim /etc/asterisk/predictivo.conf
+  870  may/07 - 12:46:52 a
+  871  may/07 - 12:47:52 less full 
+  872  may/07 - 12:50:14 vim /etc/asterisk/predictivo.conf
+  873  may/07 - 12:51:23 less full 
+  874  may/07 - 12:52:07 vim /etc/asterisk/predictivo.conf
+  875  may/07 - 12:52:28 less full 
+  876  may/07 - 12:53:44 vim /etc/asterisk/predictivo.conf
+  877  may/07 - 12:59:26 a
+  878  may/07 - 13:00:46 less full 
+  879  may/07 - 13:02:13 less full 
+  880  may/07 - 13:03:08 vim /etc/asterisk/predictivo.conf
+  881  may/07 - 13:04:44 a
+  882  may/07 - 13:05:50 date
+  883  may/07 - 13:05:53 less full 
+  884  may/07 - 13:07:18 vim /etc/asterisk/predictivo.conf
+  885  may/07 - 13:12:31 a
+  886  may/07 - 13:12:46 cd /var/lib/asterisk/
+  887  may/07 - 13:12:46 ls
+  888  may/07 - 13:12:55 cd agi-bin/
+  889  may/07 - 13:12:55 ls
+  890  may/07 - 13:13:12 cp updatequota.php updatecdr.php
+  891  may/07 - 13:13:17 vim updatecdr.php 
+  892  may/07 - 13:13:30 vim /etc/asterisk/predictivo.conf 
+  893  may/07 - 13:14:04 cp updatequota.php cdrpredict.php
+  894  may/07 - 13:14:08 vim cdrpredict.php 
+  895  may/07 - 13:14:22 vim cdrpredict.php 
+  896  may/07 - 13:14:38 vim /etc/amportal.conf 
+  897  may/07 - 13:14:51 vim cdrpredict.php 
+  898  may/07 - 13:15:58 vim /etc/asterisk/predictivo.conf 
+  899  may/07 - 13:16:04 vim cdrpredict.php 
+  900  may/07 - 13:17:49 mysql -p
+  901  may/07 - 13:18:01 mysql -u freepbx -p
+  902  may/07 - 13:19:11 vim /etc/asterisk/predictivo.conf 
+  903  may/07 - 13:19:56 vim cdrpredict.php 
+  904  may/07 - 13:22:41 vim /etc/asterisk/predictivo.conf 
+  905  may/07 - 13:22:46 vim cdrpredict.php 
+  906  may/07 - 13:26:51 vim /etc/asterisk/predictivo.conf 
+  907  may/07 - 13:28:35 a
+  908  may/07 - 13:29:27 date
+  909  may/07 - 13:29:36 less /var/log/asterisk/full 
+  910  may/07 - 13:32:06 vim cdrpredict.php 
+  911  may/07 - 13:32:34 ls -l
+  912  may/07 - 13:32:57 chown asterisk *
+  913  may/07 - 13:33:02 mysql -p
+  914  may/07 - 13:35:02 less /var/log/asterisk/full 
+  915  may/07 - 13:39:05 less /var/log/asterisk/full 
+  916  may/07 - 13:39:34 vim cdrpredict.php 
+  917  may/07 - 13:50:12 less /var/log/asterisk/full 
+  918  may/07 - 13:57:20 mysql -p
+  919  may/07 - 14:04:05 vim /etc/asterisk/predictivo.conf 
+  920  may/07 - 14:04:40 vim /etc/asterisk/extensions_additional.conf
+  921  may/07 - 14:05:37 vim /etc/asterisk/predictivo.conf 
+  922  may/07 - 14:06:35 vim /etc/asterisk/extensions_additional.conf
+  923  may/07 - 14:06:46 vim /etc/asterisk/predictivo.conf 
+  924  may/07 - 14:07:40 a
+  925  may/07 - 14:14:46 date
+  926  may/07 - 14:14:54 less /var/log/asterisk/full 
+  927  may/07 - 14:16:20 a
+  928  may/07 - 14:24:06 vim /etc/asterisk/predictivo.conf 
+  929  may/07 - 14:24:33 less /var/log/asterisk/full 
+  930  may/07 - 14:25:21 vim /etc/asterisk/predictivo.conf 
+  931  may/07 - 14:25:35 less /var/log/asterisk/full 
+  932  may/07 - 14:26:29 a
+  933  may/07 - 14:30:24 date
+  934  may/07 - 14:30:26 a
+  935  may/07 - 14:32:11 less /var/log/asterisk/full 
+  936  may/07 - 14:37:17 less /var/log/asterisk/full 
+  937  may/07 - 14:43:51 exit
+  938  may/09 - 08:39:25 top
+  939  may/10 - 17:41:31 amportal restart_fop
+  940  may/10 - 19:22:54 vim /etc/asterisk/extensions_custom.conf
+  941  may/10 - 19:23:28 vim /etc/asterisk/extensions_additional.conf
+  942  may/10 - 19:24:18 mysql -p
+  943  may/11 - 12:38:03 cd /var/www/html/sgc
+  944  may/11 - 14:47:29 cd /var/www/html/panel/
+  945  may/11 - 14:47:30 ls
+  946  may/11 - 14:47:40 vi op_buttons_custom.cfg
+  947  may/11 - 14:58:29 cd /var/www/html/
+  948  may/11 - 14:59:04 cd panel/
+  949  may/11 - 14:59:08 ls
+  950  may/11 - 14:59:14 vi op_buttons_custom.cfg
+  951  may/11 - 14:59:23 vi op_buttons_custom.cfg
+  952  may/11 - 14:59:37 vi op_buttons_custom.cfg
+  953  may/11 - 14:59:48 ls -la
+  954  may/11 - 15:00:05 rm -r .op_buttons_custom.cfg.swp
+  955  may/11 - 15:00:13 vi op_buttons_custom.cfg
+  956  may/11 - 15:05:40 amporal restart_fop
+  957  may/11 - 15:05:43 amporal restart_fop
+  958  may/11 - 15:05:49 amporal_restart_fop
+  959  may/11 - 15:05:57 amportal restart_fop
+  960  may/11 - 15:06:46 cd /var/www/html/panel/
+  961  may/11 - 15:06:53 vi op_buttons_custom.cfg
+  962  may/11 - 15:09:43 amportal restart_fop
+  963  may/14 - 10:31:14 cd /var/www/html/
+  964  may/14 - 10:31:15 ls
+  965  may/14 - 10:31:17 cd autodialer/
+  966  may/14 - 10:31:18 ls
+  967  may/14 - 10:31:22 vi index.html
+  968  may/14 - 10:31:46 vim lista.php
+  969  may/14 - 10:32:21 vim enviar.php
+  970  may/14 - 10:34:52 mv autodialer_3c_last.tar.gz /opt
+  971  may/14 - 10:34:52 ls
+  972  may/14 - 10:36:11 top
+  973  may/14 - 10:36:20 ps ax
+  974  may/14 - 10:37:21 mysql -p
+  975  may/14 - 10:47:39 mysql -p
+  976  may/14 - 11:06:27 vi index
+  977  may/14 - 11:06:31 vi index.html
+  978  may/14 - 11:26:29 exit
+  979  may/14 - 17:14:00 cd /usr/share/festival/voices/spanish/
+  980  may/14 - 17:14:01 ls
+  981  may/14 - 17:14:04 cd JuntaDeAndalucia_es_pa_diphone/
+  982  may/14 - 17:14:05 ls
+  983  may/14 - 17:14:07 cd festvox/
+  984  may/14 - 17:14:07 ls
+  985  may/14 - 17:14:19 vim JuntaDeAndalucia_es_pa_duration.scm
+  986  may/14 - 17:16:22 exit
+  987  may/15 - 09:49:13 cd /var/www/html/panel/
+  988  may/15 - 09:49:14 ls
+  989  may/15 - 09:49:21 cd op_buttons_custom.cfg
+  990  may/15 - 09:49:26 vi op_buttons_custom.cfg
+  991  may/15 - 09:50:39 amportal restart_fop
+  992  may/15 - 16:33:00 amportal stop
+  993  may/15 - 16:33:28 amportal restart_fop
+  994  may/15 - 16:33:45 /etc/init.d/asterisk restart
+  995  may/15 - 16:33:58 amportal restart_fop
+  996  may/15 - 16:34:53 amportal stop_fop
+  997  may/15 - 16:35:07 amportal restart_fop
+  998  may/15 - 16:35:42 /etc/init.d/asterisk stop
+  999  may/15 - 16:36:00 /etc/init.d/asterisk start
+ 1000  may/21 - 15:20:31 amportal restart_fop
+ 1001  may/21 - 16:50:12 history
+ 1002  may/21 - 16:51:22 iptables -L -n
+ 1003  may/21 - 16:53:31 history > /var/www/html/panel/prueba.txt

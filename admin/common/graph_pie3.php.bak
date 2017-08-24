@@ -1,0 +1,95 @@
+<?php /* $Id: graph_pie.php 6816 2008-09-19 18:33:18Z p_lindheimer $ */
+include_once(dirname(__FILE__) . "/../cdr/lib/defines.php");
+include_once(dirname(__FILE__) . "/../cdr/lib/Class.Table.php");
+include_once(dirname(__FILE__) . "/../cdr/jpgraph_lib/jpgraph.php");
+include_once(dirname(__FILE__) . "/../cdr/jpgraph_lib/jpgraph_pie.php");
+include_once(dirname(__FILE__) . "/../cdr/jpgraph_lib/jpgraph_pie3d.php");
+
+
+getpost_ifset(array('months_compare', 'srctype', 'src'));
+
+$months = Array ( 0 => 'Jan', 1 => 'Feb', 2 => 'Mar', 3 => 'Apr', 4 => 'May', 5 => 'Jun', 6 => 'Jul', 7 => 'Aug', 8 => 'Sep', 9 => 'Oct', 10 => 'Nov', 11 => 'Dec' );
+
+if (!isset($months_compare)) $months_compare = 3;
+$fromstatsmonth_sday = date("Y-m");	
+/*
+
+for ($i=0; $i<=$months_compare; $i++){
+	// creer un table legende	
+	$current_mymonth = $mymonth -$i;
+	if ($current_mymonth<=1) {
+		$current_mymonth=$current_mymonth+12;		
+		$minus_oneyar = 1;
+	}
+	$current_myyear = $myyear - $minus_oneyar;
+	
+	$current_mymonth2 = $mymonth -$i -1;
+	if ($current_mymonth2<=0) {
+		$current_mymonth2=$current_mymonth2+12;		
+		$minus_oneyar = 1;
+	}
+	$current_myyear2 = $myyear - $minus_oneyar;
+
+		$date_clause= " AND calldate >= '$current_myyear2-".sprintf("%02d",intval($current_mymonth2))."-01' AND calldate < '$current_myyear-".sprintf("%02d",intval($current_mymonth))."-01'";		
+	}
+		
+	  
+	$list_total = $instance_table_graph -> Get_list ($FG_TABLE_CLAUSE, null, null, null, null, null, null);
+	$data[] = $list_total[0][0];	
+	$mylegend[] = $months[$current_mymonth2-1]." $current_myyear : ".intval($list_total[0][0]/60)." min";
+*/
+
+/*
+$db = 'asteriskcdrdb';
+$dbuser = 'freepbx';
+$dbpass = 'fpbx';
+$dbhost = 'localhost';
+$link4 = mysql_connect($dbhost,$dbuser,$dbpass);
+mysql_select_db("$db", $link4);
+$i=0;
+$j=0;
+$contenido = mysql_query("select distinct userfield from cdr where userfield != ''", $link4);
+while ($nego = mysql_fetch_array($contenido)){
+$tempo[$i] = $nego["userfield"];
+echo $tempo[$i].",";
+$datos = mysql_query("select sum(billsec) from cdr where userfield='$tempo[$i]' and calldate rlike '^2011-02-16'", $link4);
+	while($foo = mysql_fetch_array($datos)){
+	$data[$j] = intval($foo["sum(billsec)"]/60);
+	echo $data[$j];
+	$j++;
+	}
+echo "<br>";
+$i++;
+}
+*/
+
+//var_dump($data);
+//echo "<br>";
+$data = array(1000,2000,3,0,50,600,70,800,90,0,110,120,130,140,1500,1600,170,180,190,2000);
+//var_dump($data2);
+$mylegend = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20);
+
+$graph = new PieGraph(950,400,"auto");
+$graph->SetShadow();
+
+$graph->title->Set("Total llamadas por negocio");
+$graph->title->SetFont(FF_FONT1,FS_BOLD);
+
+$p1 = new PiePlot3D($data);
+$p1->ExplodeSlice(0);
+$p1->SetCenter(0.35);
+$p1->SetLegends($mylegend);
+
+
+// Format the legend box
+$graph->legend->SetColor('navy');
+$graph->legend->SetFillColor('gray@0.8');
+$graph->legend->SetLineWeight(1);
+//$graph->legend->SetFont(FF_ARIAL,FS_BOLD,8);
+$graph->legend->SetShadow('gray@0.4',3);
+//$graph->legend->SetAbsPos(10,80,'right','bottom');
+
+$graph->Add($p1);
+$graph->Stroke();
+
+?>
